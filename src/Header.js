@@ -6,7 +6,6 @@ function Header() {
   const [navToggle, setNavToggle] = useState(false)
 
   function handleClick() {
-    console.log('working')
     setNavToggle(!navToggle)
   }
 
